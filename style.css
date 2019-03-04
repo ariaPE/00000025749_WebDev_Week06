@@ -1,0 +1,37 @@
+body{
+	font-family: arial;
+}
+
+#chatbox {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#p1{
+	margin: 20px;
+	width: 45%;
+}
+
+#p2{
+	margin: 20px;
+	width: 45%;
+}
+
+.chat1{
+	text-align: left;
+	border-width: 1px; 
+	border-style: solid; 
+	padding: 10px; 
+	background-color: #bbff99;
+}
+
+.chat2{
+	text-align: right;
+	border-width: 1px; 
+	border-style: solid; 
+	padding: 10px; 
+	background-color: #ccffff;
+}
